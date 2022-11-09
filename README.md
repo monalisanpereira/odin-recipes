@@ -4,9 +4,11 @@ One of the [projects](https://www.theodinproject.com/lessons/foundations-recipes
 
 ## Description
 
-Very basic static recipe website.
+Very basic and static recipe website.
 
 ## Skills
 
 * HTML5
 * Vanilla CSS
+
+Preview the project [here](https://monalisanpereira.github.io/odin-recipes/).
