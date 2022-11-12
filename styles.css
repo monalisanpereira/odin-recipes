@@ -2,6 +2,7 @@
 
 * {
     font-family: Tahoma, sans-serif;
+    /*border: 2px solid green;*/
 }
 
 html {
@@ -11,13 +12,12 @@ html {
 
 /*TOP BAR*/
 
-.header, .header a {
+header, header a {
     color: white;
     text-decoration: none;
 }
 
-.header {
-    text-align: center;
+header {
     background-color: #962a57;
     overflow: hidden;
     position: fixed;
@@ -25,10 +25,50 @@ html {
     right: 0;
     width: 100%;
     height: 4em;
-    display: flex;
-    justify-content: center;
+}
+
+.title {
+    margin: 0 0 0 20px;
+    display: inline-block;
+    height: 100%;
+    display: inline-flex;
     align-items: center;
 }
+
+/*NAV*/
+
+nav {
+    display: inline-block;
+    height: 100%;
+    float: right;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0 20px 0 0;
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+nav ul li {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin: 0 10px;
+}
+
+nav ul li:hover {
+    background-color: #c93070;
+}
+
+nav ul li a {
+    padding: auto;
+}
+
+
+/*MAIN*/
 
 .finished-pic {
     height: auto;
@@ -36,5 +76,14 @@ html {
 }
 
 .main {
-    margin-top: 5em;
+    margin-top: 4em;
+    display: flex;
+}
+
+.column {
+    width: 50%;
+}
+
+.main-column {
+    flex-flow: column;
 }
