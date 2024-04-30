@@ -2,9 +2,13 @@
 
 One of the [projects](https://www.theodinproject.com/lessons/foundations-recipes) proposed throughout [The Odin Project](https://www.theodinproject.com/).
 
+## Status
+
+Complete ✅
+
 ## Description
 
-Very basic and static recipe website.
+Very basic static recipe website.
 
 ## Skills
 
